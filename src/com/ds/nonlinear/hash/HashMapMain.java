@@ -1,6 +1,6 @@
 package com.ds.nonlinear.hash;
 
-public class HashDemo {
+public class HashMapMain {
   public static void main(String[] args) {
     HashTable<String> hashTable = new HashTable<String>(5);
     

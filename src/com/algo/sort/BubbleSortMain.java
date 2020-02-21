@@ -2,6 +2,8 @@ package com.algo.sort;
 
 /**
  * Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
+ *
+ * Complexity: O(n^2)
  */
 
 public class BubbleSortMain {
