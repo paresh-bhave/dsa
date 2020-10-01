@@ -1,4 +1,6 @@
-
+/**
+ * Doubly Linked List
+ */
 
 class Node {
   constructor(element) {
