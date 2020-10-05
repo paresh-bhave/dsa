@@ -21,11 +21,11 @@ function maxGap(arr) {
   return max;
 }
 
-// console.log( maxGap([3,5,4,2]) );
-// console.log( maxGap([3,6,9,1]) );
-// console.log( maxGap([0]) );
-// console.log( maxGap([0,1]) );
-// console.log( maxGap([1,10]) );
+console.log( maxGap([3,5,4,2]) );
+console.log( maxGap([3,6,9,1]) );
+console.log( maxGap([0]) );
+console.log( maxGap([0,1]) );
+console.log( maxGap([1,10]) );
 
 
 /**

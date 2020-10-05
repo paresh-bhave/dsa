@@ -5,7 +5,7 @@ import java.util.Stack;
 public class BalancedBrackets {
   static String isBalanced(String s) {
     Stack<Character> s1 = new Stack<>();
-  
+
     for (int i = 0; i < s.length(); i++) {
       char c = s.charAt(i);
       switch (c) {
@@ -39,7 +39,7 @@ public class BalancedBrackets {
     }
     return !s1.isEmpty() ? "NO" : "YES";
   }
-  
+
   public static void main(String[] args) {
     System.out.println(isBalanced("((]()(]([({]}({[)){}}[}({[{])(]{()[]}}{)}}]]{({)[}{("));
 //    System.out.println(isBalanced("{[()]}"));

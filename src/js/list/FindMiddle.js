@@ -2,7 +2,7 @@
  * Tags: #LinkedList #TwoPointers
  */
 
-const { Node, LinkedList } = require('../LinkedList');
+const { Node, LinkedList } = require('./LinkedList');
 
 
 function findMiddle(head) {

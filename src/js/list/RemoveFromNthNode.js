@@ -1,5 +1,5 @@
 
-const { Node, LinkedList } = require('../LinkedList');
+const { Node, LinkedList } = require('./LinkedList');
 
 function removeNthFromEnd(head, n) {
   let fast = head,

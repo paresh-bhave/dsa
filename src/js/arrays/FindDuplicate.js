@@ -49,10 +49,10 @@ function findDuplicate(nums) {
   return -1;
 }
 
-// console.log( findDuplicate([1,3,4,2,2]) );
-// console.log( findDuplicate([3,1,3,4,2]) );
-// console.log( findDuplicate([1,1]) );
-// console.log( findDuplicate([1,1,2]) );
+console.log( findDuplicate([1,3,4,2,2]) );
+console.log( findDuplicate([3,1,3,4,2]) );
+console.log( findDuplicate([1,1]) );
+console.log( findDuplicate([1,1,2]) );
 
 
 /**
@@ -80,10 +80,10 @@ function findDuplicateCyclic(nums) {
   return nums[nums.length - 1];
 }
 
-// console.log( findDuplicateCyclic([1,3,4,2,2]) );
-// console.log( findDuplicateCyclic([3,1,3,4,2]) );
-// console.log( findDuplicateCyclic([1,1]) );
-// console.log( findDuplicateCyclic([1,1,2]) );
+console.log( findDuplicateCyclic([1,3,4,2,2]) );
+console.log( findDuplicateCyclic([3,1,3,4,2]) );
+console.log( findDuplicateCyclic([1,1]) );
+console.log( findDuplicateCyclic([1,1,2]) );
 
 
 /**
