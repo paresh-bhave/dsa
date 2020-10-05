@@ -5,6 +5,18 @@
  * Output: "BANC"
  */
 
+/**
+ *
+ *
+ * 1. First check if the length of string is less than the length of the given pattern, if yes then no such window can exist
+ * 2. Store the occurrence of characters of the given pattern in a hash_pat[].
+ * 3. Start matching the characters of pattern with the characters of string i.e. increment count if a character matches.
+ * 4. Check if (count == length of pattern ) this means a window is found.
+ * 5. If such window found, try to minimize it by removing extra characters from the beginning of the current window.
+ * 6. Update min_length.
+ * 7. Print the minimum length window.
+ */
+
  function minWindow(str, t) {
   if (typeof str !== 'string' ||
       typeof t !== 'string' ||

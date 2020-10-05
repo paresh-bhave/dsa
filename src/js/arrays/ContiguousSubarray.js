@@ -27,13 +27,12 @@
  */
 
 function findMaxSum(arr) {
-  let max = 0,
+  let max = -Infinity,
       currMax = 0;
 
   for (let i = 0; i < arr.length; i++) {
-    currMax = currMax + arr[i];
-    if (max < currMax) max = currMax;
-    if (currMax < 0) currMax = 0;
+    currMax = Math.max(currMax + arr[i], nums[i]);
+    max = Math.max(currMax, max);
   }
 
   return max;
